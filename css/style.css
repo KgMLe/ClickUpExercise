@@ -1,12 +1,14 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 
-}
+} */
 
 body{
+    font-family: 'Playfair Display', serif;
     font-family: 'Space Mono', monospace;
-    padding: 10px
+    padding: 10px;
+
 }
 
 header {
@@ -14,15 +16,44 @@ padding: 30px;
 text-align: center;
 background: white;
 }
-
+ /* navbar "settings" */
 .navbar {
     overflow: hidden;
-    background-color: rgb(255, 191, 0);
     float: inline-end;
     display: block;
-    color: rgb(88, 14, 14);
+    color: #d6b93d;
     text-align: center;
     padding: 16px 18px;
-    
+    background-image: url("https://wallpapercave.com/dwp1x/wp9493791.jpg");
     
 }
+
+.navbar a :hover{
+  
+    border-top: 6px solid #d6b93d;
+    border-bottom: 6px solid #d6b93d;
+    padding: 10px; 
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar a{
+    color: #d6b93d;
+    font-weight: 1000;
+    font-size:30px;
+    margin: 0 10px;
+    transition: 1s;
+
+}
+/* navbar settings end */
+
+h1 {
+text-align: center;
+background: white;
+color: rgb(78, 150, 227);
+border-top: 6px solid #d6b93d;
+/* border-bottom: 6px solid #d6b93d; */
+padding: 10px;
+}
+
+
