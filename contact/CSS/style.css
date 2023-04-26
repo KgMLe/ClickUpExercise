@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+
+.heading{
+color: #7eccbf;
+font-size: 50px;
+text-align: center;
+}
+.navbar{
+ font-family:sans-serif;   
+ background-color: black;
+}
+.nav_items {
+    display: flex;
+    justify-content: space-evenly;
+    color: #7eccbf;
+}
+section{
+ padding: 30px;   
+    
+}
+
+
+.loginForm{
+    background-color: rgb(22, 14, 21);
+    color: azure;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(243, 235, 235);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 4rem;
+   text-align: center;
+}
+
+#loginButton{
+    color: azure;
+    background-color: rgb(72, 181, 183);
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+    
+}
+
+.formTitle{
+    font-family: 'Kanit', sans-serif;
+    margin-left: auto;
+   
+}
